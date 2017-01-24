@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swift_Extensions'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Few simple extensions for Date and UIView classes'
   s.description      = <<-DESC
 
