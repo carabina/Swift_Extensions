@@ -22,7 +22,7 @@ pod "Swift_Extensions"
 
 ## Author
 
-Morgan Berger,
+Morgan Berger
 
 ## License
 
