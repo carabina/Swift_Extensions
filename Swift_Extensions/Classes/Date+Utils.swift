@@ -10,7 +10,7 @@ import UIKit
 
 extension Date
 {
-    init(dateString:String) {
+    public init(dateString:String) {
         let dateStringFormatter = DateFormatter()
         dateStringFormatter.dateFormat = "dd-MM-yyyy"
         dateStringFormatter.locale = Locale(identifier: "en_US_POSIX")
@@ -18,7 +18,7 @@ extension Date
         self.init(timeInterval:0, since:d)
     }
     
-    var stringFromDate:String {
+    public var stringFromDate:String {
         get {
             
             let formatter = DateFormatter()
@@ -29,7 +29,7 @@ extension Date
         }
     }
     
-    var stringFromDateHour:String {
+    public var stringFromDateHour:String {
         get {
             
             let formatter = DateFormatter()
