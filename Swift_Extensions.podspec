@@ -10,13 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'Swift_Extensions'
   s.version          = '0.0.1'
   s.summary          = 'Few simple extensions for Date and UIView classes'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 
 This pod contains extensions of the Date and UIView class.
@@ -58,14 +51,6 @@ DESC
   s.source           = { :git => 'https://github.com/MorganBerger/Swift_Extensions.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'Swift_Extensions/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Swift_Extensions' => ['Swift_Extensions/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
