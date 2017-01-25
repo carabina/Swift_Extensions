@@ -34,9 +34,10 @@ New attributes :
 - centerX -> CGFLoat
 - centerY -> CGFLoat
 - top     -> CGFLoat
-- bottom  -> CGFLoat
-- right   -> CGFLoat
 - left    -> CGFLoat
+#- bottom  -> CGFLoat
+#- right   -> CGFLoat
+
 
 New method :
 - activateBorders() -> Put 1.0 widthed black border to the view (for debug purposes)

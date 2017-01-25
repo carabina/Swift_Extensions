@@ -85,23 +85,22 @@ extension UIView {
         }
     }
     
-    public var bottom : CGFloat {
-        get { return frame.origin.y + frame.size.height }
-        set {
-            var frame = self.frame
-            frame.origin.y = newValue - self.frame.size.height
-            self.frame = frame
-        }
-    }
-    
-    public var right : CGFloat {
-        get { return self.frame.origin.x + self.frame.size.width }
-        set {
-            var frame = self.frame
-            frame.origin.x = newValue - self.frame.size.width
-            self.frame = frame
-        }
-    }
+    /*public var bottom : CGFloat {
+     get { return frame.origin.y + frame.size.height }
+     set {
+     print(newValue)
+     self.height = newValue - self.top
+     }
+     }
+     
+     public var right : CGFloat {
+     get { return self.frame.origin.x + self.frame.size.width }
+     set {
+     
+     self.width = 300.0//newValue - self.left
+     
+     }
+     }  working on it */
     
     public var left : CGFloat {
         get { return self.frame.origin.x }
